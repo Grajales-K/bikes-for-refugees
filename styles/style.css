@@ -11,6 +11,8 @@
    --orange-dark: #c05326;
    --orange-light: #f7eae4;
    --white: #fff;
+   --small-font: 16px;
+   --bold-font: 600;
  }
 
 body {
@@ -51,6 +53,8 @@ p {
   height: 5rem;
   margin-bottom: 1rem;
   padding-top: 1rem;
+  font-size: var(--small-font);
+  font-weight: var(--bold-font);
 }
 
 .header__logo {
@@ -61,12 +65,18 @@ p {
 /* Navigation */
 
 .navigation__list {
+  width: 100%;
   display: flex;
+  justify-content: space-around;
   list-style: none;
 }
 
 .navigation__item {
-  padding: 0.5rem 0;
+  /* padding: 0.5rem 0; */
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  
 }
 
 .navigation__link {
@@ -160,6 +170,12 @@ p {
 
 
 /* Article */
+
+article-content{
+  display: flex;
+  flex-direction: row;
+  border: 2px yellow;
+}
 
 .article {
   margin-bottom: 1rem;
