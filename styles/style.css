@@ -130,7 +130,12 @@ p {
 /* hero */
 
 .hero {
-  background-image: url("header-bike.jpg");
+  background-image: url("/images/header-bike.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 40vh;
   background-color: var(--grey-light);
 }
 
@@ -171,10 +176,8 @@ p {
 
 /* Article */
 
-article-content{
-  display: flex;
-  flex-direction: row;
-  border: 2px yellow;
+.article-content{
+  background: 2px yellow;
 }
 
 .article {
