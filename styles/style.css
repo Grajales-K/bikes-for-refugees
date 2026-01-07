@@ -217,11 +217,17 @@ p {
 }
 
 .article {
-  display: flex;
-  gap: 0.5rem;
   padding: 1rem;
   border: 1px solid lightgrey;
 }
+
+.article-sidebar {
+  display: flex;
+  gap: 0.7rem;
+  padding: 1rem;
+  border: 1px solid lightgrey;
+}
+
 
 .article__title {
   margin-bottom: 0.5rem;
