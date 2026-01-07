@@ -177,11 +177,19 @@ p {
 /* Article */
 
 .article-content{
-  /* background: 2px yellow; */
+  background: 2px yellow;
+
+}
+
+.article-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .article {
-  padding: 2rem;
+  padding: 1rem;
   grid-column: span 2;
   border: 1px solid lightgrey;
 }
