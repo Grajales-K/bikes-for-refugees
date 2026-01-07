@@ -177,11 +177,13 @@ p {
 /* Article */
 
 .article-content{
-  background: 2px yellow;
+  /* background: 2px yellow; */
 }
 
 .article {
-  margin-bottom: 1rem;
+  padding: 2rem;
+  grid-column: span 2;
+  border: 1px solid lightgrey;
 }
 
 .article__title {
