@@ -177,7 +177,8 @@ p {
 /* Article */
 
 .article-content{
-  background: 2px yellow;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 
 }
 
